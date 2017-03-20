@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>女神节活动</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style>
+		a{-webkit-tap-highlight-color: transparent;}
+		html,body{height: 100%;width: 100%;}
+		.allbg{background: url(img/goddess/bg.jpg) repeat-y;background-size: 100% auto;padding-bottom: .88rem;min-height: 100%;}
+		.banner:before,.goddess:before{display: block;content: '';padding-top: 0%;}
+		.banner img{width: 100%;}
+		.goddess{margin-top: -.4rem;}
+		.goddess img{width: 9.35rem;}
+		a.db{color: white;font-size: .51rem;background: #8084f9;width: 9.36rem;line-height: 1.44rem;border-radius: 1.44rem;-webkit-border-radius: 1.44rem;margin:.5rem auto 0rem;}
+		footer{width: 9.35rem;margin: .98rem auto 0rem;border: 1px dashed #8084f9;box-sizing: border-box;padding: .3rem .2rem .3rem .4rem;border-radius: 10px;-webkit-border-radius: 10px;}
+		footer ul{font-size: .42rem;color: #8084f9;}
+		footer ul li{line-height: 1.7;} 
+		.w_toast{width: 4rem !important;}                
+		</style>
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<script language="javascript">
+		$(document).ready(function(){var width=$(window).width();var fontSize;if(!(width<1080)){fontSize="100px"}else{fontSize=width/1080*100+"px"};$("html").css("font-size",fontSize);})
+		$(window).resize(function(e){var width=$(window).width();var fontSize;if(!(width<1080)){fontSize="100px"}else{fontSize=width/1080*100+"px"};$("html").css("font-size",fontSize)});
+		</script>
+	</head>
+	<body>
+		<div class="allbg">
+			<div class="toast w_toast">
+             	<p class="tc">活动未开始</p>
+        	</div>
+			<div class="banner"><img src="img/goddess/banner.png" /></div>
+			<div class="goddess tc"><img src="img/goddess/goddess.png"></div>
+			<a class="db tc" href="#">马上加息</a>
+			<footer>
+				<ul>
+					<li>详细规则：</li>
+					<li>1. 活动时间：2017年3月7日-9日</li>
+					<li>2.活动期间，男性用户加入任意加息计划，即得等额体验金，女性用户加入任意加息计划，即得双倍体验金，多加多得。</li>
+					<li>3. 体验金有效期：1天</li>
+					<li>4. 本次活动最终解释权归我能理财所有</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>
